@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CS2.iml" filepath="$PROJECT_DIR$/CS2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops Homework 1/Nested Loops Homework 1.iml" filepath="$PROJECT_DIR$/Nested Loops Homework 1/Nested Loops Homework 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson/lesson.iml" filepath="$PROJECT_DIR$/lesson/lesson.iml" />
     </modules>
   </component>

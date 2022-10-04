@@ -2,15 +2,19 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int length = 8;
-        for (int row = 0; row <= length; row++)
+        String[] flights = {"AY664", "BA047", "AF110", "LF554", "AF003", "BA116", "AY101"};
+        String[] airlines = {"AY", "UA", "LH"};
+        for (String i : flights)
+            System.out.println(i);
+        System.out.println();
+
+        for (String i : airlines)
+            System.out.println(i);
+        System.out.println();
+
+        for (String a : airlines)
         {
-                for (int j = 0; j <= row; j++)
-                    if (row % 2 == 0)
-                        System.out.print("*");
-                    else
-                        System.out.print("-");
-                System.out.println("");
+            System.out.println(a + ":");
         }
     }
 }
