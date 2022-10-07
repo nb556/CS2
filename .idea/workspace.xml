@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa9af62a-0df3-427e-811a-6095ed72d57b" name="Changes" comment="CS2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nested Loops Homework 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nested Loops 1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nested Loops Homework 2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nested Loops 2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nested Loops Homework 3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nested Loops 3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nested Loops Homework 4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nested Loops 4/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object Oriented Homework 1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Object Oriented 1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lesson/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Nested Loops Homework 4" />
@@ -64,20 +60,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Nested Loops Homework 4" />
+      <module name="lesson" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665121882069</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CS2">
+      <created>1665122762186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665122762186</updated>
+    </task>
+    <task id="LOCAL-00011" summary="CS2">
+      <created>1665122955788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665122955788</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -2,19 +2,14 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String[] flights = {"AY664", "BA047", "AF110", "LF554", "AF003", "BA116", "AY101"};
-        String[] airlines = {"AY", "UA", "LH"};
-        for (String i : flights)
-            System.out.println(i);
-        System.out.println();
+        int key = 2;
+        int[] array = {5, 4, 3, 2, 1};
+        boolean found = false;
 
-        for (String i : airlines)
-            System.out.println(i);
-        System.out.println();
+        for (int index = 0; !found && index < array.length; index++)
+            if (array[index] == key)
+                found = true;
 
-        for (String a : airlines)
-        {
-            System.out.println(a + ":");
-        }
+        System.out.println(found);
     }
 }
