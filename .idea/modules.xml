@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CS2.iml" filepath="$PROJECT_DIR$/CS2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops Homework 1/Nested Loops Homework 1.iml" filepath="$PROJECT_DIR$/Nested Loops Homework 1/Nested Loops Homework 1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops Homework 2/Nested Loops Homework 2.iml" filepath="$PROJECT_DIR$/Nested Loops Homework 2/Nested Loops Homework 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops Homework 3/Nested Loops Homework 3.iml" filepath="$PROJECT_DIR$/Nested Loops Homework 3/Nested Loops Homework 3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops Homework 4/Nested Loops Homework 4.iml" filepath="$PROJECT_DIR$/Nested Loops Homework 4/Nested Loops Homework 4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Object Oriented Homework 1/Object Oriented Homework 1.iml" filepath="$PROJECT_DIR$/Object Oriented Homework 1/Object Oriented Homework 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 1/Nested Loops Homework 1.iml" filepath="$PROJECT_DIR$/Nested Loops 1/Nested Loops Homework 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 2/Nested Loops Homework 2.iml" filepath="$PROJECT_DIR$/Nested Loops 2/Nested Loops Homework 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 3/Nested Loops Homework 3.iml" filepath="$PROJECT_DIR$/Nested Loops 3/Nested Loops Homework 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 4/Nested Loops Homework 4.iml" filepath="$PROJECT_DIR$/Nested Loops 4/Nested Loops Homework 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object Oriented 1/Object Oriented Homework 1.iml" filepath="$PROJECT_DIR$/Object Oriented 1/Object Oriented Homework 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson/lesson.iml" filepath="$PROJECT_DIR$/lesson/lesson.iml" />
     </modules>
   </component>

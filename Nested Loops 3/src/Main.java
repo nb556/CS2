@@ -2,7 +2,7 @@
 2. The purpose of the program is to find all possible combinations of values where one is
 multiplied by ten and another is in the place of single digits excluding values being combined
 with themselves.
-3. If an inputted number is negative, the results won't be optimal.
+3. If an inputted number is negative, the results won't be what they should be.
  */
 
 
