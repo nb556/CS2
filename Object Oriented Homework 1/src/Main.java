@@ -1,4 +1,6 @@
 /*
+A train has a number of passengers on it. A passenger might use multiple trains to get to their destination
+A student is studying inside a school. The school is educating many students.
 
 
  */
