@@ -16,13 +16,11 @@ public class Main
         for (int i = 0; i <= length; i++)
         {
             for (int j = 0; j < i; j++)
-            {
                 System.out.print("*");
-            }
+
             for (int x = i; x < length; x++)
-            {
                System.out.print("-");
-            }
+
             System.out.println();
         }
     }
