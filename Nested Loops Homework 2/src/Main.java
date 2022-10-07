@@ -22,9 +22,9 @@ public class Main {
         int[] B = {5, 7, 8, 9, 10};
 
         boolean FLAG = false;
-        for (int i = 0; i < A.length; i++)
-            for (int j = 0; j < B.length; j++)
-                if (A[i] == B[j])
+        for (int i : A)
+            for (int j : B)
+                if (i == j)
                 {
                     FLAG = true;
                     break;
