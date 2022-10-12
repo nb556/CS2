@@ -5,13 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/Array algorithms 1/Array algorithms 1.iml" filepath="$PROJECT_DIR$/Array algorithms 1/Array algorithms 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array algorithms 2/Array algorithms 2.iml" filepath="$PROJECT_DIR$/Array algorithms 2/Array algorithms 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/CS2.iml" filepath="$PROJECT_DIR$/CS2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops 1/Nested Loops Homework 1.iml" filepath="$PROJECT_DIR$/Nested Loops 1/Nested Loops Homework 1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops 2/Nested Loops Homework 2.iml" filepath="$PROJECT_DIR$/Nested Loops 2/Nested Loops Homework 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops 3/Nested Loops Homework 3.iml" filepath="$PROJECT_DIR$/Nested Loops 3/Nested Loops Homework 3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nested Loops 4/Nested Loops Homework 4.iml" filepath="$PROJECT_DIR$/Nested Loops 4/Nested Loops Homework 4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Object Oriented 1/Object Oriented Homework 1.iml" filepath="$PROJECT_DIR$/Object Oriented 1/Object Oriented Homework 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 1/Nested Loops 1.iml" filepath="$PROJECT_DIR$/Nested Loops 1/Nested Loops 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 2/Nested Loops 2.iml" filepath="$PROJECT_DIR$/Nested Loops 2/Nested Loops 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 3/Nested Loops 3.iml" filepath="$PROJECT_DIR$/Nested Loops 3/Nested Loops 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nested Loops 4/Nested Loops 4.iml" filepath="$PROJECT_DIR$/Nested Loops 4/Nested Loops 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object Oriented 1/Object Oriented 1.iml" filepath="$PROJECT_DIR$/Object Oriented 1/Object Oriented 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson.Hotel/lesson.Hotel.iml" filepath="$PROJECT_DIR$/lesson.Hotel/lesson.Hotel.iml" />
       <module fileurl="file://$PROJECT_DIR$/lessonBinarySearch/lessonBinarySearch.iml" filepath="$PROJECT_DIR$/lessonBinarySearch/lessonBinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessonSorting/lessonSorting.iml" filepath="$PROJECT_DIR$/lessonSorting/lessonSorting.iml" />
     </modules>
   </component>
 </project>
