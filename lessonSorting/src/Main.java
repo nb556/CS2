@@ -12,12 +12,12 @@ public class Main
             for (int j = i + 1; j < data.length; j++)
             {
                 if (data[indSmallest] > data[j])
-                    indSmallest = data[j];
+                    indSmallest = j;
             }
             swap(data, i, indSmallest);
         }
         for (int i : data)
-            System.out.print(i);
+            System.out.print(" "+i);
     }
 
     static  void swap (int[] arr, int i, int j)
