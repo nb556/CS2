@@ -4,8 +4,6 @@ public class Main
     {
         int[] data = {5, 11, 43, 12, 55};
 
-        int lo;
-
         for (int i = 0; i <= data.length - 2; i++)
         {
             int indSmallest = i;
