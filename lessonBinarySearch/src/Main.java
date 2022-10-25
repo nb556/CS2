@@ -6,10 +6,8 @@ public class Main
         int lo = 0, hi = data.length -1;
         int key = 1;
 
-        int[] search = data;
-
         boolean found = false;
-        int mid = (lo+hi)/2;
+        int mid;
 
         while (!found && lo <= hi)
         {
