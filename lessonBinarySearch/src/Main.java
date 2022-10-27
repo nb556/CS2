@@ -2,9 +2,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int[] data = {-50, 40, 30, 0, 55};
+        int[] data = {-50, 0, 30, 40, 55, 66, 77, 88, 99, 100};
         int lo = 0, hi = data.length -1;
-        int key = 1;
+        int key = 66;
 
         boolean found = false;
         int mid;
@@ -15,15 +15,12 @@ public class Main
              if (data[mid] == key)
              {
               found = true;
-              System.out.println(mid);
+              System.out.println("found " + mid);
              }
              else if (data[mid] > key)
-              lo = mid + 1;
-
+                 hi = mid -1;
              else
-              hi = mid -1;
-
-
+                 lo = mid + 1;
         }
     }
 }
