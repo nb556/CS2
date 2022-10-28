@@ -1,11 +1,13 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main
 {
     public static void main(String[] args)
     {
-        LinkedList<Integer> list = new LinkedList<>();
+        List<Integer> list = new ArrayList<>();
         list.add(15);
 
         Scanner scanner = new Scanner(System.in); // read from user
