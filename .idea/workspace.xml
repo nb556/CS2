@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9af62a-0df3-427e-811a-6095ed72d57b" name="Changes" comment="CS2">
-      <change afterPath="$PROJECT_DIR$/Array algorithms 1/Array algorithms 1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array algorithms 2/Array algorithms 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array algorithms 4/Array algorithms 4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array algorithms 5/Array algorithms 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array algorithms 6/Array algorithms 6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LessonLists/LessonLists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LessonLists/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lists 1/Lists 1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lists 1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessonBubbleSort/lessonBubbleSort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessonSorting/lessonSorting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LessonLists/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonLists/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +21,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "C:/Users/boucnic/IdeaProjects/ibcsutils/ibcsutils.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/boucnic/IdeaProjects/ibcsutils/ibcsutils.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />

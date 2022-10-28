@@ -10,7 +10,14 @@ public class Main
 
         Scanner scanner = new Scanner(System.in); // read from user
         while(scanner.hasNextInt ())
-           list.add(scanner.nextInt ());
+        {
+            int val = scanner.nextInt();
+            int i = 0;
+            while (i < list.size() && list.get (i) > val)
+                i++;
+
+            list.add(i, val);
+        }
 
         System.out.println(list);
     }
