@@ -4,7 +4,6 @@ public class Main
     {
         int[] array = {9, 7, 2, 11};
         int I = 1, J, N = array.length, val;
-        // N=4 I=1
 
         while (I < N)
         {
@@ -26,4 +25,4 @@ public class Main
     }
 }
 
-// The order of growth is 
+// The order of growth is quadratic
