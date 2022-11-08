@@ -10,10 +10,31 @@ public class Course
         this.participantsAmount = participantsAmount;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getTopic() {
+        return topic;
+    }
+
+    public String getTeacherName() {
+        return teacherName;
+    }
+
+    public int getParticipantsAmount() {
+        return participantsAmount;
+    }
+
     public boolean hasParticipants() {
         if (participantsAmount <= 0)
             return false;
         else
             return true;
+    }
+
+    public String toString()
+    {
+        return (name + " " + topic + " " + teacherName + " " +participantsAmount);
     }
 }
