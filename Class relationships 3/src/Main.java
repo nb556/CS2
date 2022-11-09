@@ -2,10 +2,9 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Project[] projects = new Project[1];
-        projects[0] = new Project("556", 2);
+        Project manufacture = new Project(556, 2);
 
-        Task[] tasks = new Task[projects[0].taskAmount];
+        Task[] tasks = new Task[manufacture.taskAmount];
         tasks[0] = new Task("Order materials", 2);
         tasks[1] = new Task("Make products", 3);
 

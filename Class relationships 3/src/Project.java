@@ -1,10 +1,10 @@
 public class Project
 {
-    String name;
+    int id;
     int taskAmount;
-    public Project(String name, int taskAmount)
+    public Project(int id, int taskAmount)
     {
-        this.name = name;
+        this.id = id;
         this.taskAmount = taskAmount;
     }
 }
@@ -17,10 +17,6 @@ class Task
     {
         this.name = name;
         this.workerAmount = workerAmount;
-    }
-
-    public int getWorkerAmount() {
-        return workerAmount;
     }
 }
 
