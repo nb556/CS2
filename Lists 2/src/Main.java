@@ -6,7 +6,7 @@ public class Main
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        while ()
+        while (true)
         {
             String word = scanner.next();
             if (word.equals("!"))

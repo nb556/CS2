@@ -1,3 +1,4 @@
+
 public class ComputerStore
 {
     public static void main (String[] args)
@@ -5,12 +6,12 @@ public class ComputerStore
         System.out.println ("Got to get business started.");
     }
 }
-
+/*
 class Order
 {
     Order ()
     {
-        products = new Product[5];
+
     }
 }
 
@@ -34,22 +35,15 @@ class Product
 
 class Laptop extends Product
 {
-    public Laptop ()
-    {
-        super (model, price);
-    }
+
 
     public String model;
     public int price;
 }
-
+*/
+/*
 class Router extends Product
 {
-    public Router ()
-    {
-        super (model, price);
-    }
-
     public String model;
     public int price;
-}
+}*/
