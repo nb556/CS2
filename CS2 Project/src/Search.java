@@ -10,13 +10,11 @@ public class Search {
 
     // non-trivial algorithm
     public static String BinarySearch(ArrayList<String> arr, String searchFor) {
-        boolean found = false;
         int lo = 0, hi = arr.size()-1;
 
-        while (!found && lo <= hi) {
+        while (lo <= hi) {
             int mid = (lo+hi)/2;
             if (arr.get(mid).equals(searchFor)) {
-                found = true;
                 return (""+mid);
             }
             else if (searchFor.compareTo(arr.get(mid)) < 0)
