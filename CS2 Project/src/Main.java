@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) throws  Exception{
         Scanner scanner = new Scanner(System.in);
-        String[] words = {"abacus", "belfast", "chronological",  "klingon", "xavier"};
+        String[] words = {"klingon", "belfast", "xavier",  "abacus", "chronological"};
         ArrayList<String> list = new ArrayList<>(Arrays.asList(words));
 
         while (true){
-            System.out.println("\n\n\n\n\n\nIf you want to search, enter 'search'");
+            System.out.println("\n\n\n\n\n\nTo start a task, enter 'sort' or 'search'");
             String prompt = scanner.next();
             if (prompt.equals("stop") || prompt.equals("!") || prompt.equals("break"))
                 break;
@@ -23,6 +23,11 @@ public class Main {
                     System.out.println(Search.BinarySearch(list, prompt));
                     scanner.next();
                 }
+            } else if (prompt.equals("sort")) {
+                BubbleSort.sortString(list);
+                for (String i : list)
+                    System.out.print(" " + i);
+                scanner.next();
             }
         }
     }
