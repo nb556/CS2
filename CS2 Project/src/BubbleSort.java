@@ -9,6 +9,7 @@ public class BubbleSort {
         this.words = words;
     }
 
+    // non-trivial algorithm
     static void sortInt(int[] arr) {
         boolean changed = true;
         while (changed) {
@@ -24,6 +25,7 @@ public class BubbleSort {
         }
     }
 
+    // non-trivial algorithm
     static void sortString(ArrayList<String> words) {
         boolean changed = true;
         while (changed) {
@@ -37,6 +39,17 @@ public class BubbleSort {
                 }
             }
         }
+    }
+
+    static boolean isSorted(ArrayList<String> words) {
+        boolean sorted = true;
+        for (int i = 0; i < words.size() -1; i++) {
+            if (words.get(i).compareTo(words.get(i +1)) > 0) {
+                sorted = false;
+                break;
+            }
+        }
+        return sorted;
     }
 
     static  void swapInt(int[] arr, int x, int y)
