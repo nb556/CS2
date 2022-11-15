@@ -5,8 +5,9 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) throws  Exception{
         Scanner scanner = new Scanner(System.in);
-        String[] words = {"klingon", "belfast", "xavier",  "abacus", "chronological"};
+        String[] words = {"klingon", "belfast", "xavier",  "abacus", "chronological", "arkansas", "compile"};
         ArrayList<String> list = new ArrayList<>(Arrays.asList(words));
+        System.out.println(list.size());
 
         while (true){
             System.out.println("\n\n\n\n\n\nTo start a task, enter 'sort' or 'search'");
