@@ -3,11 +3,13 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String clear = ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         String[] words = {"klingon", "belfast", "xavier",  "abacus", "chronological", "arkansas", "compile"};
         ArrayList<String> list = new ArrayList<>(Arrays.asList(words));
+
+        ArrayList<ArrayList<String>> lists = new ArrayList<>();
 
         while (true){
             System.out.println(clear + "To start a task, enter 'sort', 'search' or 'list'");
@@ -17,9 +19,9 @@ public class Main {
             if (prompt.equals("search")) {
                 if (BubbleSort.isSorted(list)) {
                     while (true) {
-                    System.out.println(clear+"Enter 'back' to go back\n\nPlease enter a keyword");
+                    System.out.println(clear+"Enter '!' to go back\n\nPlease enter a keyword");
                     prompt = scanner.next();
-                    if (prompt.equals("back"))
+                    if (prompt.equals("!"))
                         break;
                     System.out.println(Search.BinarySearch(list, prompt));
                     scanner.next();
@@ -35,8 +37,17 @@ public class Main {
                 scanner.next();
             } else if (prompt.equals("list")) {
                 for (String i : list)
-                    System.out.print(i + ", ");
+                    System.out.print(i + " ");
                 scanner.next();
+            } else if (prompt.equals("new list")) {
+                lists.add(new ArrayList<String>());
+                System.out.println("\n\nEnter any words into the list");
+                while (true) {
+                    prompt = scanner.next();
+                    if (prompt.equals("!"))
+                        break;
+                    lists.get(lists.size()-1).add(prompt);
+                }
             }
         }
     }
