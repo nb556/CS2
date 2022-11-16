@@ -41,7 +41,7 @@ public class Main {
                 scanner.next();
             } else if (prompt.equals("new list")) {
                 lists.add(new ArrayList<String>());
-                System.out.println("\n\nEnter any words into the list");
+                System.out.println(clear + "Enter any words into the list\n\nEnter '!' to go back");
                 while (true) {
                     prompt = scanner.next();
                     if (prompt.equals("!"))
