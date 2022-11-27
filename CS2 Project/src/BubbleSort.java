@@ -42,14 +42,12 @@ public class BubbleSort {
     }
 
     static boolean isSorted(ArrayList<String> words) {
-        boolean sorted = true;
         for (int i = 0; i < words.size() -1; i++) {
             if (words.get(i).compareTo(words.get(i +1)) > 0) {
-                sorted = false;
-                break;
+                return false;
             }
         }
-        return sorted;
+        return true;
     }
 
     static  void swapInt(int[] arr, int x, int y)
