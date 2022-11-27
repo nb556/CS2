@@ -10,12 +10,12 @@ public class Main {
         int listIdx = 0;
 
         while (true) {
-            System.out.println(clear + "Type '!' to stop the program");
+            System.out.println(clear);
             if (lists.isEmpty())
-                System.out.println("\nType 'newlist' to create your first list");
+                System.out.println("\nType 'newlist' to create your first list ('!' to exit)");
             else {
                 System.out.println("\nThe list being accessed is " + listIdx);
-                System.out.println("\nTo start a task, enter 'newlist', 'sort', 'search', 'list' or 'setlist' to access a different list");
+                System.out.println("\nTo start a task, enter 'newlist', 'sort', 'search', 'list' or 'setlist' to access a different list ('!' to exit)");
             }
             String prompt = scanner.next();
             if (prompt.equals("!"))
@@ -57,7 +57,7 @@ public class Main {
             }
             if (prompt.equals("newlist")) {
                 lists.add(new ArrayList<String>());
-                System.out.println(clear + "Enter any words into the list\n\nEnter '!' to go back");
+                System.out.println(clear + "Enter any words into the list ('!' to go back)");
                 while (true) {
                     prompt = scanner.next();
                     if (prompt.equals("!"))
