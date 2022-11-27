@@ -23,12 +23,12 @@ public class Main {
                 }
                 else if (BubbleSort.isSorted(lists.get(0))) {
                     while (true) {
-                    System.out.println(clear+"Enter '!' to go back\n\nPlease enter a keyword");
-                    prompt = scanner.next();
-                    if (prompt.equals("!"))
-                        break;
-                    System.out.println(clear + Search.BinarySearch(lists.get(0), prompt));
-                    scanner.next();
+                        System.out.println(clear+"Enter '!' to go back\n\nPlease enter a keyword");
+                        prompt = scanner.next();
+                        if (prompt.equals("!"))
+                            break;
+                        System.out.println(clear + Search.BinarySearch(lists.get(0), prompt));
+                        scanner.next();
                     }
                 }
                 else {
