@@ -10,22 +10,6 @@ public class BubbleSort {
     }
 
     // non-trivial algorithm
-    static void sortInt(int[] arr) {
-        boolean changed = true;
-        while (changed) {
-            changed = false;
-            for (int i = 0; i < arr.length; i++) {
-                for (int j = 0; j < arr.length - 1 - i; j++) {
-                    if (arr[j] > arr[j + 1]) {
-                        swapInt(arr, j, j + 1);
-                        changed = true;
-                    }
-                }
-            }
-        }
-    }
-
-    // non-trivial algorithm
     static void sortString(ArrayList<String> words) {
         boolean changed = true;
         while (changed) {
