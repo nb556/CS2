@@ -28,7 +28,7 @@ public class Main {
                             prompt = scanner.next();
                             if (prompt.equals("!"))
                                 break;
-                            System.out.println(clear + Search.BinarySearch(lists.get(0), prompt));
+                            System.out.println(clear + Search.BinarySearch(lists.get(listIdx), prompt));
                             scanner.next();
                         }
                     } else {
