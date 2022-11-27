@@ -10,20 +10,24 @@ public class Main {
         ArrayList<ArrayList<String>> lists = new ArrayList<>();
 
         while (true){
-            System.out.println(clear + "To start a task, enter 'sort', 'search', 'list' or 'newlist'");
+            System.out.println(clear + "Type '!' to stop the program\n\nTo start a task, enter 'sort', 'search', 'list' or 'newlist'");
             String prompt = scanner.next();
 
 
             if (prompt.equals("stop") || prompt.equals("!") || prompt.equals("break"))
                 break;
             if (prompt.equals("search")) {
-                if (BubbleSort.isSorted(lists.get(0))) {
+                if (lists.isEmpty()){
+                    System.out.println(clear + "No lists exist");
+                    scanner.next();
+                }
+                else if (BubbleSort.isSorted(lists.get(0))) {
                     while (true) {
                     System.out.println(clear+"Enter '!' to go back\n\nPlease enter a keyword");
                     prompt = scanner.next();
                     if (prompt.equals("!"))
                         break;
-                    System.out.println(Search.BinarySearch(lists.get(0), prompt));
+                    System.out.println(clear + Search.BinarySearch(lists.get(0), prompt));
                     scanner.next();
                     }
                 }
@@ -36,6 +40,7 @@ public class Main {
                 System.out.println(clear+"Sorted");
                 scanner.next();
             } else if (prompt.equals("list")) {
+                System.out.println(clear);
                 for (String i : lists.get(0))
                     System.out.print(i + " ");
                 scanner.next();
