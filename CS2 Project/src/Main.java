@@ -24,7 +24,7 @@ public class Main {
                 if (prompt.equals("search")) {
                     if (BubbleSort.isSorted(lists.get(listIdx))) {
                         while (true) {
-                            System.out.println(clear + "Enter '!' to go back\n\nPlease enter a keyword");
+                            System.out.println(clear + "Please enter a keyword ('!' to go back)");
                             prompt = scanner.next();
                             if (prompt.equals("!"))
                                 break;
