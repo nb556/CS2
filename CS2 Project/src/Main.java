@@ -6,22 +6,23 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String clear = ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-
         ArrayList<ArrayList<String>> lists = new ArrayList<>();
+        int listIdx = 0;
 
         while (true) {
             System.out.println(clear + "Type '!' to stop the program");
             if (lists.isEmpty())
                 System.out.println("\nType 'newlist' to create your first list");
-            else
-                System.out.println("\nTo start a task, enter 'sort', 'search', 'list' or 'newlist'");
+            else {
+                System.out.println("\nThe list being accessed is " + listIdx);
+                System.out.println("\nTo start a task, enter 'newlist', 'sort', 'search', 'list' or 'setlist' to access a different list");
+            }
             String prompt = scanner.next();
-
             if (prompt.equals("!"))
                 break;
             if (!(lists.isEmpty())) {
                 if (prompt.equals("search")) {
-                    if (BubbleSort.isSorted(lists.get(0))) {
+                    if (BubbleSort.isSorted(lists.get(listIdx))) {
                         while (true) {
                             System.out.println(clear + "Enter '!' to go back\n\nPlease enter a keyword");
                             prompt = scanner.next();
@@ -35,14 +36,23 @@ public class Main {
                         scanner.next();
                     }
                 } else if (prompt.equals("sort")) {
-                    BubbleSort.sortString(lists.get(0));
+                    BubbleSort.sortString(lists.get(listIdx));
                     System.out.println(clear + "Sorted");
                     scanner.next();
                 } else if (prompt.equals("list")) {
                     System.out.println(clear);
-                    for (String i : lists.get(0))
+                    for (String i : lists.get(listIdx))
                         System.out.print(i + " ");
                     scanner.next();
+                } else if (prompt.equals("setlist")) {
+                    System.out.println(clear + "Please input the number of the list you want to access");
+                    int input = Integer.parseInt(scanner.next());
+                    if (input >= 0 && input < lists.size())
+                        listIdx = input;
+                    else {
+                        System.out.println(clear + "Please input a valid number for the list");
+                        scanner.next();
+                    }
                 }
             }
             if (prompt.equals("newlist")) {
